@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   font-family: 'Inter', sans-serif;
 }
@@ -171,4 +175,119 @@ body{
 
 .card-button-icon{
   margin-right: 4px;
+}
+
+.developer{
+  display: flex;
+  align-items: center;
+  padding: 80px 0 40px;
+}
+
+.developer-photo{
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 20px
+}
+
+.developer-about{
+  margin-left: 55px;
+  margin-top: 16px  ;
+}
+
+.developer-hello{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  color: #211B12;
+  margin-bottom: 4px;
+}
+
+.developer-title{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  color: #BF7506;
+  margin: 0;
+}
+
+.developer-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+
+.cando{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #DD9C3C;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.skills-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #211B12;
+  margin-bottom: 10px;
+}
+
+.feedback{
+  padding: 80px 0 160px;
+}
+
+.input-group{
+  position: relative;
+  padding-top: 9px;
+  margin-bottom: 24px;
+}
+
+.input-label{
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #83807C;
+  padding: 0 8px;
+  background-color: #fff;
+  top: 0;
+  left: 16px;
+}
+
+.input{
+  border: 3px solid #E0DEDC;
+  border-radius: 4px;
+  width: 435px;
+  height: 56px;
+}
+
+.textarea{
+  min-height: 140px
+}
+
+.form-container{
+  max-width: 435px;
+  margin: auto;
+}
+
+.button {
+  margin-left: 55px;
+  padding: 7px 8px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+  border: none;
+  border-bottom: 3px solid #BF7506;
+  background-color: #fff;
+  cursor: pointer;
+  margin-left: auto
+
 }
